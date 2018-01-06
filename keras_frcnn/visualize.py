@@ -136,8 +136,3 @@ def visualize_det_cv2(img, detections, classes=None, thresh=0.6):
                               unique_color, -1)
                 cv2.putText(img, text_label, text_org, cv2.FONT_HERSHEY_DUPLEX, 0.6, (255, 255, 255), 1)
     return img
-
-
-
-
-
